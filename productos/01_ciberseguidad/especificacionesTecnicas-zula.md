@@ -44,12 +44,12 @@ ZULA gestiona campañas de formación personalizadas, simulacros de phishing rea
 ## 3. ALCANCE DEL SERVICIO 
 
 
-<style>                         /*centra los encabezados y datos de la tabla*/
+<style>                         
   th {
-    text-align: center;
+    text-align: center;           <!-- Centra el contenido de la tabla -->
   }
 
-table, th, td {                 /*agrega bordes a la tabla*/
+table, th, td {                  <!-- Coloca bordes a la tabla -->
   border: 1px solid black;
   border-collapse: collapse;
 }
