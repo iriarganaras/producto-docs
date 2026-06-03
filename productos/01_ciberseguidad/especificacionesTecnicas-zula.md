@@ -44,17 +44,6 @@ ZULA gestiona campañas de formación personalizadas, simulacros de phishing rea
 ## 3. ALCANCE DEL SERVICIO 
 
 
-<style>                         
-  th {
-    text-align: center;           <!-- Centra el contenido de la tabla -->
-  }
-
-table, th, td {                  <!-- Coloca bordes a la tabla -->
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-
 <table>
   <tr>
     <th>Producto</th>
