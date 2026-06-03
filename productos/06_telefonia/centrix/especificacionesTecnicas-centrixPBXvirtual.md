@@ -37,7 +37,7 @@ A continuación, se detallan las funcionalidades básicas incluidas en la presen
 + Fax Server
 + Manual del Usuario (guía rápida con funciones básicas). Ver Anexo I.
 
-<sup>1</sup> <small>La IP-PBX soporta una casilla de VoiceMail para cada interno. Cada casilla soporta 20 mensajes de 30 segundos de duración cada uno.</small>
+<sup>1</sup> *La IP-PBX soporta una casilla de VoiceMail para cada interno. Cada casilla soporta 20 mensajes de 30 segundos de duración cada uno.*
 
 ### Funcionalidades opcionales
 A continuación, se detallan las funcionalidades Opcionales que pueden incluirse bajo expresa solicitud del Cliente.
@@ -68,74 +68,74 @@ Cada cliente cuenta con un usuario y contraseña para el ingreso a un sector pri
 
 ### Definición de los servicios:
 
-<u>Casilla de mensajes</u>
+**Casilla de mensajes**
 
 Facilidad mediante la cual el sistema es capaz de registrar mensajes de voz de las personas llamantes cuando uno no está presente o cuando la línea se encuentra ocupada, como un contestador en su domicilio tradicional. El cliente puede, si lo desea, configurar la casilla de mensajes para enviar avisos vía mail cuando hay mensajes nuevos, como también poder adjuntar los mensajes de Voz al mail, para poder ser escuchados directamente desde su PC.
 
-<u>Servicio FAX Server</u>
+**Servicio FAX Server**
 
 Fax Server permite recibir los faxes directamente en su computadora en forma personalizada y por medio del e-mail. El usuario puede saber al instante cuando ha recibido un fax sin apartarse de su PC. Además, podrá reenviarlo, archivarlo o simplemente imprimirlo. El fax es recibido en el servidor de Fax de Metrotel, que lo relaciona con su cuenta de email y realiza la entrega del mismo con el archivo adjunto.
 
-<u>Llamada en espera</u>
+**Llamada en espera**
 
 El servicio de llamada en espera le permite a un cliente atender una nueva llamada cuando se encuentra con una llamada en curso. Mientras el cliente se encuentra en una llamada, un tono de alerta le indica la presencia de esta nueva llamada.
 
-<u>Desvío de llamadas “incondicional”</u>
+**Desvío de llamadas “incondicional”**
 
 Este servicio redirige en forma incondicional todas las llamadas entrantes al número telefónico que se haya configurado. Esta facilidad es controlada por el usuario y una vez activada permanece en ese estado hasta tanto él mismo la desactive. La persona que llama no podrá distinguir que su llamada ha sido desviada. El cliente, aún con la facilidad activada, puede realizar llamadas salientes en forma normal. Las llamadas se pueden desviar a un número dentro o fuera la red de Metrotel. Cada llamada de desvío será facturada en la misma forma que una llamada directa a ese destino sea local, celular, Larga Distancia, etc.
 
-<u>Desvío de llamadas “por ocupado”</u>
+**Desvío de llamadas “por ocupado”**
 
 Ídem anterior salvo que el desvío se produce en caso de que la línea esté ocupada.
 
-<u>Desvío de llamadas por “no contesta”</u>
+**Desvío de llamadas por “no contesta”**
 
 Ídem anterior salvo que el desvío se produce en caso de que al llamar a la línea no conteste.
 
-<u>Identificación de llamadas</u>
+**Identificación de llamadas**
 
 Todas las líneas de Metrotel tienen Caller ID habilitado por lo que de contar con un dispositivo o teléfono con visualización de Caller ID, podrá observar el número del que se origina la llamada antes de responderla. Esta funcionalidad solo estará disponible para equipos compatibles con la tecnología de Metrotel.
 
-<u>Bloqueo de ID Saliente</u>
+**Bloqueo de ID Saliente**
 
 El sistema por defecto envía información del abonado llamante en cada llamada realizada. Esta información es presentada en los terminales que poseen el servicio de Caller ID activado. Para evitar la presentación del número y nombre llamante, se puede utilizar el servicio de “Bloqueo de ID”. De esta manera las llamadas serán presentadas en destino como anónimas. La activación puede hacerse para todas las llamadas, como también para llamadas elegidas individualmente.
 
-<u>Transferencia de llamadas</u>
+**Transferencia de llamadas**
 
 Todas las llamadas que se encuentren en curso pueden derivarse, en vivo, a otras líneas dentro o fuera de la red de Metrotel.
 
-<u>Música en espera</u>
+**Música en espera**
 
 Mientras una llamada entrante se encuentra retenida o en espera a ser atendido por una Cola de Atención, se reproduce música funcional, la cual es configurable en cada caso (depende del tipo de servicio).
 
-<u>Caller ID</u>
+**Caller ID**
 
 Todos los equipos conectados a la Red Pública de Telefonía (PSTN) se encuentran identificados por un número perteneciente al Plan Fundamental. Al recibir llamadas en un terminal compatible, puede visualizarse el número del cual se está recibiendo la llamada.
 
-<u>Call Pick Up</u>
+**Call Pick Up**
 
 En grupos de teléfonos puede configurarse la funcionalidad de capturar la llamada que se encuentra sonando en otro terminal remoto.
 
-<u>Grabación de Llamadas</u>
+**Grabación de Llamadas**
 
 Un grupo específico de llamadas puede ser grabado para posterior análisis o soporte de procesos de negocio. La central se encuentra provista con un espacio para grabar hasta 20 horas diarias de grabación. Una vez por día, en horas de baja utilización, las llamadas son transferidas por la red local a un repositorio externo de propiedad del cliente. Una vez transferidas las llamadas, el espacio queda nuevamente disponible para más grabaciones.
 
 
 ### Detalle de Opcionales
 
-<u>Adaptadores Telefónicos FXS</u>
+**Adaptadores Telefónicos FXS**
 
 El servicio Centrix soporta la conexión de teléfonos analógicos tradicionales mediante la utilización de adaptadores telefónicos con puertos del tipo “FXS”.
 
-<u>Adaptadores Telefónicos FXO</u>
+**Adaptadores Telefónicos FXO**
 
 El servicio Centrix permite la conexión de líneas analógicas de otros prestadores de servicios de telefonía. Para ello es necesario utilizar gateways (adaptadores telefónicos) externos para contar con puertos analógicos con interfaz FXO (Foreign Exchange Office). Por restricciones de las líneas analógicas de otros prestadores, se recomienda el uso de las mismas como numeración directa a internos de la central o sobre algún IVR con una corta espera. Esta condición optimizará el uso de las líneas a la vez que podrá evitar que llamadas entrantes o salientes queden en un estado desconocido por mucho tiempo.
 
-<u>Teléfonos IP / Analógicos (Venta)</u>
+**Teléfonos IP / Analógicos (Venta)**
 
 El servicio Centrix soporta la conexión de teléfonos IP (IP Phone). Los teléfonos IP utilizan el protocolo SIP (Session Initiation Protocol), y serán provistos por Metrotel o por el Cliente, del mismo modo que los teléfonos analógicos.
 
-<u>Garantía</u>
+**Garantía**
 
 El equipamiento tiene una garantía por 12 (doce) meses a partir de la fecha de la firma del Documento de Entrega.
 
@@ -143,30 +143,15 @@ El Certificado de Garantía y el Manual de Uso del equipamiento serán entregado
 
 La garantía contempla la reparación o reemplazo de partes. Por tratarse de una unidad con componentes importados se aclara que de no contarse con los mismos el tiempo de reparación ó reemplazo estará condicionado a las normas vigentes de importación de esas partes.
 
-<u>Cola de llamados selectivas por ANI</u>
+**Cola de llamados selectivas por ANI**
 
 En caso de contar con información de los orígenes de las llamadas entrantes, podrá configurarse para cada Cola de Atención un grupo de ANIs con funcionalidades diferenciadas, pudiendo así dando una atención más precisa. Esta funcionalidad viene acompañada de una API para poder lograrla funcionalidad requerida.
 
-<u>IVR Adicional</u>
+**IVR Adicional**
 
 La central cuenta con un Preatendedor principal. Se podrán adicionar otros niveles de IVR para poder encadenarlos y lograr arboles de atención más complejos.
 
 ## 3. CARACTERÍSTICAS DEL SERVICIO  
-
-
-<style>                         /*centra los encabezados y datos de la tabla*/
-  th, td {
-    text-align: center;
-  }
-
-table, th, td {                 /*agrega bordes a la tabla*/
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-
-
-</style>
 
 <table>
 
@@ -236,13 +221,13 @@ table, th, td {                 /*agrega bordes a la tabla*/
   
 </table>
 
-<small>*Consulte por otras versiones disponibles*</small>
+*Consulte por otras versiones disponibles*
 
 ### Conexión remota
 
-Conexión Remota Conexión por Enlace privado: El cliente podrá contar con un enlace del tipo RPV – ATI (red privada Virtual) para conectarse desde cada una de sus oficinas, garantizando de este modo la calidad del servicio contratado. El servicio debe ser contratado con este servicio de vínculo privado.
+**Conexión Remota Conexión por Enlace privado:** El cliente podrá contar con un enlace del tipo RPV – ATI (red privada Virtual) para conectarse desde cada una de sus oficinas, garantizando de este modo la calidad del servicio contratado. El servicio debe ser contratado con este servicio de vínculo privado.
 
-Conexión por Internet: El servicio además del vínculo privado ofrece la posibilidad de conectar un dispositivo SIP (Software o Hardware) desde un sitio remoto a través de Internet. Este servicio se ofrece como valor agregado para permitir la movilidad de los internos, pero no se ofrece solo para acceso por internet por cuestiones reglamentarias y de seguridad informática.
+**Conexión por Internet:** El servicio además del vínculo privado ofrece la posibilidad de conectar un dispositivo SIP (Software o Hardware) desde un sitio remoto a través de Internet. Este servicio se ofrece como valor agregado para permitir la movilidad de los internos, pero no se ofrece solo para acceso por internet por cuestiones reglamentarias y de seguridad informática.
 
 Es importante verificar que el enlace de Internet del sitio remoto cumpla con las características que se detallan a continuación. Las mismas deben mantenerse constantes en el tiempo.
 + Ancho de Banda: al menos 32 kbps por cada canal de voz (Codec G.729) o 100 kbps por cada canal de voz (Codec G.711)
@@ -294,7 +279,7 @@ El mantenimiento programado consistirá en toda intervención realizada en la re
 
 Para una correcta instalación del servicio, el cliente deberá tener en cuenta lo solicitado a continuación:
 
-<u>Instalación en domicilio del cliente:</u>
+**Instalación en domicilio del cliente:**
 
 El cableado desde el sitio donde se encuentra el Equipo Terminal instalado por Metrotel, hasta cada uno de los puestos de trabajo, debe ser categoría 5e ó superior. Deben existir tomacorrientes para PCs, monitores y cualquier otro dispositivo electrónico, incluyendo un tomacorriente disponible donde se instalará el equipamiento que soporta el servicio provisto por Metrotel.
 

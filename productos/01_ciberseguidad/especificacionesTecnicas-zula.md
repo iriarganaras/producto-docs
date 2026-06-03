@@ -7,15 +7,15 @@ ZULA gestiona campañas de formación personalizadas, simulacros de phishing rea
 
 ### Componentes principales del servicio
 
-<u>Portal Web Corporativo:</u> Interfaz personalizable para que cada empresa acceda a sus campañas, reportes, capacitaciones y evaluaciones.
+**Portal Web Corporativo:** Interfaz personalizable para que cada empresa acceda a sus campañas, reportes, capacitaciones y evaluaciones.
 
-<u>Campañas de Concientización:</u> Diseño y despliegue mensual de contenidos interactivos con videos, juegos, artículos y trivias.
+**Campañas de Concientización:** Diseño y despliegue mensual de contenidos interactivos con videos, juegos, artículos y trivias.
 
-<u>Simulacros de Phishing,Ransomware y QRishing:</u> Ejercicios programados para medir la exposición del personal frente a ataques de ingeniería social.
+**Simulacros de Phishing,Ransomware y QRishing:** Ejercicios programados para medir la exposición del personal frente a ataques de ingeniería social.
 
-<u>Dashboard de Analítica:</u> Panel centralizado de métricas clave como tasas de clic, reportes de usuarios comprometidos y cumplimiento.
+**Dashboard de Analítica:** Panel centralizado de métricas clave como tasas de clic, reportes de usuarios comprometidos y cumplimiento.
 
-<u>Sistema de Evaluaciones:</u> Exámenes automatizados para reforzar el aprendizaje y registrar el nivel de asimilación.
+**Sistema de Evaluaciones:** Exámenes automatizados para reforzar el aprendizaje y registrar el nivel de asimilación.
 
 ## 2. ALCANCE Y ESPECIFICACIÓN TÉCNICA
 

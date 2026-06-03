@@ -1,4 +1,4 @@
-# ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO - ATI
+# ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO - ACCESO TELEFÓNICO IP
 
 ## 1. DESCRIPCIÓN GENERAL
 El Acceso Telefónico IP (ATI) es un servicio que le brindará la posibilidad de conectar la central privada de su empresa con el Soft Swich de Metrotel a través de un vínculo IP basado en una red MPLS (Multiprotocol Label Switching). A través de Acceso Telefónico IP (ATI) de Metrotel, su empresa estará conectada con la red PSTN convencional y la numeración asignada será accesible desde toda la red pública global. El servicio se presenta en tramas de diferentes configuraciones, cantidad de números y canales. Con una mínima inversión tendrá variedad de planes según su consumo, máxima calidad, rápida instalación y flexibilidad. Entre los principales beneficios se destacan:
@@ -12,24 +12,10 @@ El Acceso Telefónico IP (ATI) es un servicio que le brindará la posibilidad de
 ### Definición de los servicios
 
 El servicio Acceso Telefónico IP (ATI), fue diseñado de un modo totalmente dinámico y flexible, de modo de que pueda optar por la configuración que mejor se ajuste a las necesidades de su negocio. En ese sentido, el servicio posee múltiples versiones de cantidad de canales, todas ellas con una única cuenta/cliente SIP, y opcionalmente se puede escoger la cantidad de números telefónicos, el número de cabecera, precompras para tráfico local, LDN y LDI que necesite, o algunas opciones de bloqueos y listas que pueden contratarse directamente por el módulo de autogestión web que se entrega al cliente. Adicionalmente el servicio puede contratarse paquetizado con el servicio ATI CENTRIX (central virtual PBX) para conformar un conjunto Acceso telefónico IP + Central Virtual IP llave en mano. Este paquete puede incluir además adaptadores telefónicos analógicos, softphones, teléfonos IP, etc. El servicio soporta los códec G711a (en modo forzado) no se acepta más de un códec en dicho servicio. Cabe aclarar que para el caso de llamadas de FAX Metrotel solo brinda dicho soporte con el códec sin compresión.
+
 Por una cuestión de seguridad el servicio es brindado por medio de una Red Privada (VLAN) con un pool de IP’s privadas las cuales no tienen acceso ni desde ni hacia Internet.
 
 ## 3. CARACTERÍSTICAS DEL SERVICIO  
-
-
-<style>                         /*centra los encabezados y datos de la tabla*/
-  th, td {
-    text-align: center;
-  }
-
-table, th, td {                 /*agrega bordes a la tabla*/
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-
-
-</style>
 
 <table>
   <tr>
@@ -42,8 +28,8 @@ table, th, td {                 /*agrega bordes a la tabla*/
   </tr> 
   <tr>
     <th>Código de Producto</th>
-    <th colspan="2">ATI</th>    
-    <th colspan= "2"> Método de contratación</th>
+    <th>ATI</th>    
+    <th> Método de contratación</th>
   </tr>
     <th rowspan= "13">Opcionales</th>
     <td>1000 MinLocLibres<td/>
@@ -102,7 +88,7 @@ table, th, td {                 /*agrega bordes a la tabla*/
 
 ### Opcionales / Adicionales al producto
 
-Alquiler Gateway E1-IP: El cliente deberá contar con una central PABX con placa de tramas digitales E1. Los protocolos soportados son MFCR2 Argentina (AR.NF.s2.001 Ed.2°) e ISDN PRI. En el extremo del cliente se podrán instalar 2 tipos de conectores: BNC (75 Ohm) y RJ48 (120 Ohm), esto será acordado en el momento del alta del servicio. La configuración de los canales será siempre bidireccional. El transporte de las llamadas en este producto es a través de la Red IP pudiendo ser afectado en caso de problemas en dicha Red.
+**Alquiler Gateway E1-IP:** El cliente deberá contar con una central PABX con placa de tramas digitales E1. Los protocolos soportados son MFCR2 Argentina (AR.NF.s2.001 Ed.2°) e ISDN PRI. En el extremo del cliente se podrán instalar 2 tipos de conectores: BNC (75 Ohm) y RJ48 (120 Ohm), esto será acordado en el momento del alta del servicio. La configuración de los canales será siempre bidireccional. El transporte de las llamadas en este producto es a través de la Red IP pudiendo ser afectado en caso de problemas en dicha Red.
 
 ## 4. SOPORTE TÉCNICO
 
@@ -120,7 +106,7 @@ En aquellos casos en los que la provisión del servicio contratado requiera una 
 
 Para una correcta instalación del servicio, el cliente deberá tener en cuenta lo solicitado a continuación
 
-<u>Instalación en domicilio del cliente:</u>
+**Instalación en domicilio del cliente:**
 
 El cableado de telefonía desde el sitio donde se encuentra el Equipo Terminal instalado por Metrotel, hasta cada uno de los puestos de trabajo, debe ser categoría 5e ó superior. Deben existir tomacorrientes para PCs, monitores y cualquier otro dispositivo electrónico, incluyendo un tomacorriente disponible donde se instalará el equipamiento que soporta el servicio provisto por Metrotel. Se recomienda disponer de un lugar acondicionado para centralizar todo el cableado y equipos de comunicaciones de forma prolija (idealmente un rack en una sala con refrigeración).
 
@@ -138,11 +124,11 @@ El Cliente no podrá alegar incrementos súbitos de tráfico y/o acceso a destin
 
 El cliente reconoce que no será responsabilidad de Metrotel cualquier daño generado por la interrupción o corte del servicio que sea consecuencia de una interrupción, programada o no, de energía eléctrica o de la interrupción de otro recurso o medio técnico que intervenga en el funcionamiento del servicio en la medida que no se deba a responsabilidad directamente atribuible a Metrotel.
 
-<u>Metrotel ofrece dos tipos de modalidades en la autorización del troncal SIP:</u>
+**Metrotel ofrece dos tipos de modalidades en la autorización del troncal SIP:**
 
-<u>IP Fija:</u> se valida el usuario por IP Fija con hasta 2 direcciones IP, además si existiera más de un Trunk IP con la misma IP pública, entonces se debe agregar la validación del Encabezado del “FROM” en el paquete SIP (FromUser).
+**IP Fija:** se valida el usuario por IP Fija con hasta 2 direcciones IP, además si existiera más de un Trunk IP con la misma IP pública, entonces se debe agregar la validación del Encabezado del “FROM” en el paquete SIP (FromUser).
 
-<u>Registración:</u> Esta permite validarse por el método REGISTER con las credenciales provistas por Metrotel (Usuario, Contraseña y Servidor), y puede también restringirse a una o varas IP’s (máximo 6 IP’s) a solicitud del cliente. Se establece un límite de 2 registros en simultáneo a los efectos de ofrecer redundancia y/o Balanceo para el cliente. El cliente puede generar llamadas solo si existe activa la Registración y en cada Una de las llamadas se validará con las Credenciales provistas.
+**Registración:** Esta permite validarse por el método REGISTER con las credenciales provistas por Metrotel (Usuario, Contraseña y Servidor), y puede también restringirse a una o varas IP’s (máximo 6 IP’s) a solicitud del cliente. Se establece un límite de 2 registros en simultáneo a los efectos de ofrecer redundancia y/o Balanceo para el cliente. El cliente puede generar llamadas solo si existe activa la Registración y en cada Una de las llamadas se validará con las Credenciales provistas.
 
 En condiciones normales de funcionamiento del enlace, Metrotel asegurará el normal establecimiento simultáneo de llamadas en un (1) segundo en función de la capacidad de canales contratados. Este parámetro es conocido como CPS o "Calls Per Second".
 

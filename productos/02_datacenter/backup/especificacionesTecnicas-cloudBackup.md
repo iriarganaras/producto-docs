@@ -1,4 +1,4 @@
-# ESPECIFICACIONES TÉCNICAS - CLOUD BACKCUP
+# ESPECIFICACIONES TÉCNICAS - CLOUD BACKUP
 
 ## 1. DESCRIPCIÓN GENERAL
 
@@ -19,8 +19,8 @@ por algún motivo uno de los centros de almacenamiento tiene una falla, el
 contenido del cliente va a seguir disponible <sup>1</sup>
 
 
-<sup>1</sup> <small>Cabe destacar que la sincronización a centros alternativos de almacenamiento no funciona como backup de la información. Si el contenido que se sube al centro de
-datos principal es borrado accidentalmente el mismo será borrado de todas las regiones donde se haya sincronizado.</small>
+<sup>1</sup> *Cabe destacar que la sincronización a centros alternativos de almacenamiento no funciona como backup de la información. Si el contenido que se sube al centro de
+datos principal es borrado accidentalmente el mismo será borrado de todas las regiones donde se haya sincronizado.*
 
 ## 2. CARACTERÍSTICAS
 
@@ -158,7 +158,7 @@ File Systems Soportados:
 + JFS <sup>*</sup>
 + Linux SWAP
 
-<sup>*</sup> <small>Algunas limitaciones pueden existir. Consultar con el área de soporte. </small>
+<sup>*</sup> *Algunas limitaciones pueden existir. Consultar con el área de soporte.*
 
 
 Metrotel recomienda a sus clientes limitar la cantidad de personas que vayan a administrar el sistema de backup, dada la importancia de la información crítica de su empresa. El administrador será quien tenga la cuenta de usuario para acceso a la programación y configuración del sistema. El Cliente es responsable de configurar la planificación de respaldos y políticas de retención desligando a Metrotel de cualquier responsabilidad.

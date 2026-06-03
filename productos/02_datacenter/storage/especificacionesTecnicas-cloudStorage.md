@@ -1,4 +1,4 @@
-# ESPECIFICACIONES TÉCNICAS - CLOUD BACKCUP
+# ESPECIFICACIONES TÉCNICAS - CLOUD STORAGE
 
 ## 1. DESCRIPCIÓN GENERAL
 
@@ -23,9 +23,6 @@ El servicio consiste en la provisión de un repositorio con espacio de almacenam
 
 El servicio de Metrotel Cloud Storage incluye la sincronización automática del contenido en 2 centros de almacenamiento de Metrotel, geográficamente separados. El proceso de sincronización es automático y transparente para el usuario.
 
-
-<sup>1</sup> <small>Es responsabilidad del cliente realizar la subida / actualización del contenido en Metrotel Cloud Storage.</small>
-
 Los contenidos en Metrotel Cloud Storage tienen 100% de disponibilidad, si por algún motivo uno de los centros de almacenamiento tiene una falla, el contenido del cliente va a seguir disponible<sup>2</sup>.
 
 En el momento de la puesta en marcha, el cliente y Metrotel deberán coordinar cómo será la configuración final con la cual se presentará el repositorio contratado y la configuración de los extremos para establecer la conexión al Cloud de Metrotel. Está conexión podrá ser realizada por medio de un enlace (Layer2 o Layer3) de hasta 1 GB (según factibilidad técnica). El enlace dedicado incluye una transferencia mensual de al menos 10 Tb, en el caso que el cliente requiera mayor transferencia deberá ser especificado en la preventa del servicio para ver factibilidad técnica. En casos que el cliente requiera más ancho de banda se evaluara como proyecto especial, previo análisis de las áreas de ingeniería de red y de Datacenter de Metrotel.
@@ -40,16 +37,17 @@ La red de METROTEL garantiza una disponibilidad de 99.7 % anual.
 
 El cliente tendrá acceso exclusivo al espacio de almacenamiento que contrató. El mismo no será compartido con otros clientes. Una vez finalizado el contrato con Metrotel, la información resguardada será eliminada del almacenamiento. Se aconseja realizar la transferencia de la información a otro sitio unos 30 días antes de la baja del servicio para garantizar que la información no se pierda.
 
+<sup>1</sup> *Es responsabilidad del cliente realizar la subida / actualización del contenido en Metrotel Cloud Storage.*
 
-<sup>2</sup> <small>Cabe destacar que la sincronización a centros alternativos de almacenamiento no funciona como backup de la información. Si el contenido que se sube al centro de datos principal es borrado accidentalmente el mismo será borrado de todas las regiones donde se haya sincronizado.</small>
+<sup>2</sup> *Cabe destacar que la sincronización a centros alternativos de almacenamiento no funciona como backup de la información. Si el contenido que se sube al centro de datos principal es borrado accidentalmente el mismo será borrado de todas las regiones donde se haya sincronizado.*
 
 ### Seguridad
 
-<u>Transporte de los datos</u>
+**Transporte de los datos**
 
 Metrotel garantiza que los accesos por red a los recursos contratados por el cliente sean exclusivos, que no se comparta el “medio de transporte” con otro cliente, y que no sea posible poder “capturar” el tráfico de red. Para ello, Metrotel cumple con los estándares más altos sobre seguridad en la red de datos.
 
-<u>Almacenamiento de los datos</u>
+**Almacenamiento de los datos**
 
 Para el caso de los datos almacenados en la nube, Metrotel utiliza la configuración de “zona” para brindar un servicio multi-tenant. Esto habilita que cada cliente quede aislado dentro de una nube lógica segura, permitiendo que los recursos compartidos para el almacenamiento sean exclusivos de éste y accedidos por los protocolos que configure. Al mismo tiempo, se utilizan diferentes proveedores de autenticación según sea necesario o el cliente lo requiera.
 Los accesos finales a los datos, sobre el servidor, quedan asegurados por las políticas de seguridad que el cliente utilice (ACL o permisos UNIX), y por su metodología de resguardo de la información.
