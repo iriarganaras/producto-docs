@@ -58,9 +58,9 @@ El soporte para el lenguaje de programación PHP está configurado teniendo en c
 
 Ejemplo: suponiendo un archivo llamado index, deberá nombrase de la siguiente manera dependiendo de la versión de PHP que se desee utilizar.
 
-a. “index.php3” para la versión 3
-b. “index.php4” para la versión 4
-c. “index” para la versión 5
+1.  “index.php3” para la versión 3
+2.  “index.php4” para la versión 4
+3.  “index” para la versión 5
 
 **Soporte ASP.NET**
 
