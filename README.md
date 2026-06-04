@@ -16,10 +16,12 @@ producto-docs/
 │   ├── 01_ciberseguridad/
 │   ├── 02_datacenter/
 |   |    ├── backup
+|   |    ├── datacenter-sky-online
 |   |    ├── datacenter-virtual
 |   |    ├── hous (colcation)
-|   |    ├── servidor-virtual
+|   |    ├── servidor-virtual-backup
 |   |    ├── storage
+|   |    ├── web-hosting
 │   ├── 03_internet/
 |   |    ├── int-burst
 |   |    ├── int-dc
@@ -28,6 +30,9 @@ producto-docs/
 |   |    ├── int-mitigado
 |   |    ├── isi
 │   ├── 04_red-ftth/
+|   |    ├── fans
+|   |    ├── fat
+|   |    ├── marca-blanca
 │   ├── 05_soluciones-it/
 |   |    ├── cloud-connect
 |   |    ├── eset
@@ -35,6 +40,7 @@ producto-docs/
 |   |    ├── metro-wifi
 |   |    ├── microsoft365
 |   |    ├── secpack
+|   |    ├── veeam-replication
 |   |    ├── vwan
 |   |    
 │   ├── 06_telefonia/
@@ -49,8 +55,24 @@ producto-docs/
 |   |    ├── rpv
 |   |    ├── tls
 |   |    ├── video
+|   ├── 08_servicios-administrados-SADM
 │   └── shared/
 │
 ├── imagenes/
     ├── ati
+    ├── cloud-connect
+    ├── datacenter-sky online
+    ├── datacenter-virtual
+    ├── email
+    ├── hosting
+    ├── hous-colocation
+    ├── ipt
+    ├── metro-wifi
+    ├── rpv
+    ├── sadm
+    ├── secpack-fortigate
+    ├── servidor-virtual-backup
+    ├── tev
+    ├── veeam-replication
+    ├── vwan
 ```
