@@ -1,0 +1,1 @@
+![Formulario para ingreso al data center](../../../imagenes/datacenter-sky%20online/formulario%20ingreso.png)
