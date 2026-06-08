@@ -82,7 +82,7 @@ iii) por cualquier otro medio que METROTEL informe.
 - METROTEL queda exento de reclamos por interrupciones de servicios derivadas de cortes de energía u otros servicios ajenos a su control.
 - METROTEL tampoco será responsable por daños a equipos, instalaciones o personal del CLIENTE por causa no imputable, caso fortuito o fuerza mayor.
 
-## 11. CESIÓM
+## 11. CESIÓN
 
 - La condición de CLIENTE es personal e intransferible, y la cesión a terceros requiere autorización expresa de METROTEL.
 
