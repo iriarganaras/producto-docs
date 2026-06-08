@@ -61,7 +61,49 @@ Este recurso podrá ser ampliado bajo demanda, ya sea en forma temporal o defini
 
 El producto provisto, garantiza los siguientes parámetros (Throughput, IOPS y Latencia) dependiendo de la carga de trabajo a la cual se lo someta. En el cuadro adjunto se describe, los resultados que el disco puede garantizar según la configuración de cada carga de trabajo tomada como modelo.
 
-![Características disco rígido](../../../imagenes/datacenter-virtual/caracteristicas%20disco%20rigido.png)
+<table>
+  <th>Característica carga de trabajo</th>
+  <th>Tamaño bloque I/O </th>
+  <th>Modo de acceso</th>
+  <th>% Write</th>
+  <th>% Read</th>
+  <th>Throughput (MBps)</th>
+  <th>IOPS</th>
+  <th>Latencia (ms)</th>
+
+  <tr>
+  <td>Configuración para base de datos</td>
+  <td>4 KB</td>
+  <td>Random</td>
+  <td>33 %</td>
+  <td>67 %</td>
+  <td>17.32</td>
+  <td>4227</td>
+  <td>1.89</td>
+  </tr>
+
+  <tr>
+  <td>Configuración para lograr máximo I/O</td>
+  <td>512 Bytes</td>
+  <td>Secuencial</td>
+  <td>0  %</td>
+  <td>100 %</td>
+  <td>19.42</td>
+  <td>37934</td>
+  <td>0.21</td>
+  </tr>
+
+   <tr>
+  <td>Configuración para lograr máximo throughput</td>
+  <td>64 KB</td>
+  <td>Secuencial</td>
+  <td>0  %</td>
+  <td>100 %</td>
+  <td>194.35</td>
+  <td>2965</td>
+  <td>2.69</td>
+  </tr>
+</table>
 
 La medición se realizó con IOmeter 1.1.0 en un servidor virtual con SO Microsoft Windows Server 2012 R2 Standard con 8 vCPU Intel Xeon CPU ES-2690 v3 @ 2.60 GHz y 12 GB RAM sobre un disco "no particionado" utilizando los parámetros indicados en la tabla adjunta (columnas de color celeste).
 
