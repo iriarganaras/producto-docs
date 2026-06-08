@@ -56,7 +56,123 @@ Metrotel ofrece la mejor alternativa del mercado en cuanto a conectividad dedica
 
 ## 3. CARACTERÍSTICAS DEL SERVICIO
 
-![caracteristicas del servicio](../../../imagenes/hous-colocation/colocation.png)
+<table>
+  <tr>
+    <th colspan="10" >DATA CENTER - COLOCATION</th>
+  </tr>
+  <tr>
+    <th>Productos</th> 
+    <th colspan="3">1 rack</th>
+    <th colspan="3">1/2 rack</th>
+    <th colspan="3">1/3 rack</th>
+  </tr> 
+
+  <tr>
+    <th>Código de Producto</th>
+    <th colspan="3">FR</th>    
+    <th colspan="3">MR</th>
+    <th colspan="3">TR</th>
+  </tr>
+
+  <tr>
+    <td>Versiones</td>
+    <td>Low</td>    
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>    
+    <td>Medium</td>
+    <td>High</td>
+    <td>Low</td>    
+    <td>Medium</td>
+    <td>High</td>
+  </tr>
+
+   <tr>
+    <td>Cantidad de tomas corriente</td>
+    <td colspan="3">15</td>    
+    <td  colspan="3">10</td>
+    <td  colspan="3">5</td>
+  </tr>
+
+ <tr>
+    <td>Peso máximo soportado</td>
+    <td colspan="3">400</td>    
+    <td colspan="3">200</td>
+    <td colspan="3">130</td>
+  </tr>
+
+  <tr>
+    <td>Altura en unidades</td>
+    <td colspan="3">44</td>    
+    <td colspan="3">22</td>
+    <td colspan="3">14</td>
+  </tr>
+
+  <tr>
+    <td>Altura (mm)</td>
+    <td colspan="3">1980</td>    
+    <td colspan="3">990</td>
+    <td colspan="3">660</td>
+  </tr>
+
+  <tr>
+    <td>Frente</td>
+    <td colspan="3">19'' (480 mm)</td>    
+    <td colspan="3">19'' (480 mm)</td>
+    <td colspan="3">19'' (480 mm)</td>
+  </tr>
+
+<tr>
+    <td>Profundidad útil (mm)</td>
+    <td colspan="3">730</td>    
+    <td colspan="3">730</td>
+    <td colspan="3">730</td>
+  </tr>
+
+  <tr>
+    <td>Profundidad permitida (KVA)</td>
+    <td>1.5</td>    
+    <td>3</td>
+    <td>-</td>
+    <td>0.75</td>    
+    <td>1.5</td>
+    <td>-</td>
+    <td>0.5</td>    
+    <td>1</td>
+    <td>-</td>
+  </tr>
+
+   <tr>
+    <td>Potencia máxima (KVA)</td>
+    <td>2</td>    
+    <td>3.5</td>
+    <td>-</td>
+    <td>1</td>    
+    <td>2</td>
+    <td>-</td>
+    <td>0.7</td>    
+    <td>1.2</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Configuración llave térmica (KVA)</td>
+    <td>4.4</td>    
+    <td>4.4</td>
+    <td>-</td>
+    <td>2.2</td>    
+    <td>2.2</td>
+    <td>-</td>
+    <td>1</td>    
+    <td>1.3</td>
+    <td>-</td>
+  </tr>
+
+   <tr>
+    <td>Cantidad máxima de equipos</td>
+    <td colspan="9">Limitado por la capacidad física del rack</td>    
+  </tr>
+</table>
 
 ## 4. OPCIONALES
 
