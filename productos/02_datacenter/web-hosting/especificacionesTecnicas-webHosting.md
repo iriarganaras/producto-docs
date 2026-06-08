@@ -12,9 +12,751 @@ El servicio HOSTING, en cualquiera de las variantes descriptas a continuación, 
 
 A continuación, se detallan las características de cada variante de producto:
 
-![Caracteristicas hosting](../../../imagenes/hosting/caracteristicas%20hosting.png)
-![Caracteristicas hosting](../../../imagenes/hosting/caracteristicas%20hosting%202.png)
-![Caracteristicas hosting](../../../imagenes/hosting/caracteristicas%20hosting%203.png)
+<table>
+<tr>
+<th rowspan="2">Características</th>
+<th>Mini Web - inicial Windows</th>
+<th>Básico Hosting - Linux 2G</th>
+<th>Básico Hosting - Windows 2G</th>
+<th>Básico Hosting - Linux 10G</th>
+<th>Básico Hosting - Windows 10G</th>
+<th>Básico Hosting - Linux 25G</th>
+<th>Básico Hosting - Windows 25G</th>
+<th>Básico Hosting - Linux 50G</th>
+<th>Básico Hosting - Windows 50G</th>
+</tr>
+
+<tr>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+<th>Hosting</th>
+</tr>
+
+<tr>
+<th>Código de producto</th>
+<td>HW</td>
+<td>HL</td>
+<td>HW</td>
+<td>HL</td>
+<td>HW</td>
+<td>HL</td>
+<td>HW</td>
+<td>HL</td>
+<td>HW</td>
+</tr>
+
+<tr>
+<th>Plataforma</th>
+<td>Windows</td>
+<td>LINUX</td>
+<td>Windows</td>
+<td>LINUX</td>
+<td>Windows</td>
+<td>LINUX</td>
+<td>Windows</td>
+<td>LINUX</td>
+<td>Windows</td>
+</tr>
+
+<tr>
+<th>Versión</th>
+<td>Windows 500 MB</td>
+<td>LINUX 2GB</td>
+<td>Windows 2GB</td>
+<td>LINUX 10GB</td>
+<td>Windows 10GB</td>
+<td>LINUX 25GB</td>
+<td>Windows 25GB</td>
+<td>LINUX 50GB</td>
+<td>Windows 50GB</td>
+</tr>
+
+<tr>
+<th>Bases My-SQL</th>
+<td>NO</td>
+<td>5</td>
+<td>5</td>
+<td>10</td>
+<td>5</td>
+<td>10</td>
+<td>5</td>
+<td>10</td>
+<td>5</td>
+</tr>
+
+<tr>
+<th>Bases MS-SQL 2000</th>
+<td>NO</td>
+<td>NO</td>
+<td>5</td>
+<td>NO</td>
+<td>5</td>
+<td>NO</td>
+<td>5</td>
+<td>NO</td>
+<td>5</td>
+</tr>
+
+<tr>
+<th>Canales ODBC</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Espacio en disco</th>
+<td>500 MB</td>
+<td>2 GB</td>
+<td>2 GB</td>
+<td>25 GB</td>
+<td>25 GB</td>
+<td>25 GB</td>
+<td>25 GB</td>
+<td>50 GB</td>
+<td>50 GB</td>
+</tr>
+
+<tr>
+<th>Redireccionamientos</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Subdominios</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Servidor IRC</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Transferencia</th>
+<td>10.000 MB</td>
+<td>5 GB</td>
+<td>5 GB</td>
+<td>10 GB</td>
+<td>10 GB</td>
+<td>50 GB</td>
+<td>50 GB</td>
+<td>100 GB</td>
+<td>100 GB</td>
+</tr>
+
+<tr>
+<th>Panel de control</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Soporte</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Estadísticas del sitio con AWSTATS</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Logs en formato texto</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>FTP</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>SSH</th>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+</tr>
+
+<tr>
+<th>Cuentas FTPextas</th>
+<td>NO</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+<td>Ilimitados</td>
+</tr>
+
+<tr>
+<th>Secure Server (SSL)</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Mailing List Manager</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Majordomo List</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Forms Multi Usuario</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Seguridad por contraseñas</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Restricted shell</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Página de error configurable</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Backups</th>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+<td>DIARIO</td>
+</tr>
+
+<tr>
+<th>Fommail</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Password Manager</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Mailing List</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Libro de visitas</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>CGI de votación</th>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td>NO</td>
+</tr>
+
+<tr>
+<th>Administrador de Banners</th>
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Foro de discusión</th>
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Contador gráfico/texto</th>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Buscador interno</th>
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Carritos de compras</th>
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+
+<tr>
+<th>Sistema Operativo</th>
+<td>Windows 2019 Server</td>
+<td>CloudLinux</td>
+<td>Windows 2019 Server</td>
+<td>CloudLinux</td>
+<td>Windows 2019 Server</td>
+<td>CloudLinux</td>
+<td>Windows 2019 Server</td>
+<td>CloudLinux</td>
+<td>Windows 2019 Server</td>
+</tr>
+
+<tr>
+<th>Servidor Web</th>
+<td>IIS 10.0</td>
+<td>Apache Web Server</td>
+<td>IIS 10.0</td>
+<td>Apache Web Server</td>
+<td>IIS 10.0</td>
+<td>Apache Web Server</td>
+<td>IIS 10.0</td>
+<td>Apache Web Server</td>
+<td>IIS 10.0</td>
+</tr>
+
+<tr>
+<th>Monitoreo IPmonitor</th>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+<td>24x7</td>
+</tr>
+
+<tr>
+<th>Garantía de uptime</th>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+<td>99.97%</td>
+</tr>
+
+<tr>
+<th>Componentes</th>
+<td>PHP 7.4
+PHP 7.0
+PHP 5.6
+PHP 5.5
+PHP 5.4
+PHP 5.3
+PHP 5.2
+.NET 4.6.2
+.NET 4.6.1
+.NET 4.6
+.NET 4.5.2
+.NET 4.5.1
+.NET 4.5
+.NET 4
+.NET 3.5
+.NET 3.0
+.NET 2.0</td>
+
+<td>
+PHP 7.4
+PHP 7.0 (7.0.3)
+PHP 5.6 (5.6.18)
+PHP 5.5 (5.5.32)
+PHP 5.4 (5.4.45)
+PHP 5.3 (5.3.29)
+PHP 5.2 (5.2.17)
+PHP 5.1 (5.1.6)
+PHP 4.4 (4.4.9)
+Python 3.4.1
+Python 3.3.2
+Python 2.7.8
+Ruby 2.1.8
+Ruby 2.0.0
+Ruby 1.9.3
+Ruby 1.8.7
+Perl Versión 5.10.1
+GCC 4.4.7 20120313 (Red Hat 4.4.7-16)
+MySQL Ver 14.14 Distrib 5.5.48, for Linux (x86_64) using readline 5.1
+</td>
+
+<td>PHP 7.4
+PHP 7.0
+PHP 5.6
+PHP 5.5
+PHP 5.4
+PHP 5.3
+PHP 5.2
+.NET 4.6.2
+.NET 4.6.1
+.NET 4.6
+.NET 4.5.2
+.NET 4.5.1
+.NET 4.5
+.NET 4
+.NET 3.5
+.NET 3.0
+.NET 2.0
+Perl 5.x
+IIS 10.0
+SqlServer 2014 (2005 y 2008 Compatible)
+</td>
+
+<td>
+PHP 7.4
+PHP 7.0 (7.0.3)
+PHP 5.6 (5.6.18)
+PHP 5.5 (5.5.32)
+PHP 5.4 (5.4.45)
+PHP 5.3 (5.3.29)
+PHP 5.2 (5.2.17)
+PHP 5.1 (5.1.6)
+PHP 4.4 (4.4.9)
+Python 3.4.1
+Python 3.3.2
+Python 2.7.8
+Ruby 2.1.8
+Ruby 2.0.0
+Ruby 1.9.3
+Ruby 1.8.7
+Perl Versión 5.10.1
+GCC 4.4.7 20120313 (Red Hat 4.4.7-16)
+MySQL Ver 14.14 Distrib 5.5.48, for Linux (x86_64) using readline 5.1
+</td>
+
+<td>PHP 7.4
+PHP 7.0
+PHP 5.6
+PHP 5.5
+PHP 5.4
+PHP 5.3
+PHP 5.2
+.NET 4.6.2
+.NET 4.6.1
+.NET 4.6
+.NET 4.5.2
+.NET 4.5.1
+.NET 4.5
+.NET 4
+.NET 3.5
+.NET 3.0
+.NET 2.0
+Perl 5.x
+IIS 10.0
+SqlServer 2014 (2005 y 2008 Compatible)
+</td>
+
+<td>
+PHP 7.4
+PHP 7.0 (7.0.3)
+PHP 5.6 (5.6.18)
+PHP 5.5 (5.5.32)
+PHP 5.4 (5.4.45)
+PHP 5.3 (5.3.29)
+PHP 5.2 (5.2.17)
+PHP 5.1 (5.1.6)
+PHP 4.4 (4.4.9)
+Python 3.4.1
+Python 3.3.2
+Python 2.7.8
+Ruby 2.1.8
+Ruby 2.0.0
+Ruby 1.9.3
+Ruby 1.8.7
+Perl Versión 5.10.1
+GCC 4.4.7 20120313 (Red Hat 4.4.7-16)
+MySQL Ver 14.14 Distrib 5.5.48, for Linux (x86_64) using readline 5.1
+</td>
+
+<td>PHP 7.4
+PHP 7.0
+PHP 5.6
+PHP 5.5
+PHP 5.4
+PHP 5.3
+PHP 5.2
+.NET 4.6.2
+.NET 4.6.1
+.NET 4.6
+.NET 4.5.2
+.NET 4.5.1
+.NET 4.5
+.NET 4
+.NET 3.5
+.NET 3.0
+.NET 2.0
+Perl 5.x
+IIS 10.0
+SqlServer 2014 (2005 y 2008 Compatible)
+</td>
+
+<td>
+PHP 7.4
+PHP 7.0 (7.0.3)
+PHP 5.6 (5.6.18)
+PHP 5.5 (5.5.32)
+PHP 5.4 (5.4.45)
+PHP 5.3 (5.3.29)
+PHP 5.2 (5.2.17)
+PHP 5.1 (5.1.6)
+PHP 4.4 (4.4.9)
+Python 3.4.1
+Python 3.3.2
+Python 2.7.8
+Ruby 2.1.8
+Ruby 2.0.0
+Ruby 1.9.3
+Ruby 1.8.7
+Perl Versión 5.10.1
+GCC 4.4.7 20120313 (Red Hat 4.4.7-16)
+MySQL Ver 14.14 Distrib 5.5.48, for Linux (x86_64) using readline 5.1
+</td>
+
+<td>PHP 7.4
+PHP 7.0
+PHP 5.6
+PHP 5.5
+PHP 5.4
+PHP 5.3
+PHP 5.2
+.NET 4.6.2
+.NET 4.6.1
+.NET 4.6
+.NET 4.5.2
+.NET 4.5.1
+.NET 4.5
+.NET 4
+.NET 3.5
+.NET 3.0
+.NET 2.0
+Perl 5.x
+IIS 10.0
+SqlServer 2014 (2005 y 2008 Compatible)
+</td>
+
+</tr>
+
+</table>
 
 ***El plan Professional Hosting Windows 2 GB acepta un máximo de 5 DLLs propietarias.*
 
