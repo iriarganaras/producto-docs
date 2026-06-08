@@ -2,15 +2,13 @@
 
 Este documento contiene el detalle completo de las **especificaciones técnicas y alcance de servicio del producto INTERNET INT provisto por Metrotel**. El objetivo es ofrecer contexto autosuficiente por chunk, repitiendo el nombre del servicio (INTERNET INT) en cada sección para que nunca se pierda el hilo temático.
 
----
 
-## 1. DESCRIPCIÓN GENERAL - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 1. DESCRIPCIÓN GENERAL
 
 El servicio **INTERNET INT** de Metrotel ha sido especialmente diseñado para proporcionar una conexión a Internet de alta calidad a Carriers y Empresas. INTERNET INT consiste en una conexión dedicada, permanente, simétrica, de excelente disponibilidad, con variantes de velocidades a la medida del cliente.
 
----
 
-## 2. ALCANCE Y ESPECIFICACIÓN TÉCNICA - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 2. ALCANCE Y ESPECIFICACIÓN TÉCNICA
 
 El servicio **INTERNET INT** se provee bajo la modalidad FTTO (Fiber To The Office), utilizando tecnología avanzada en redes de acceso de fibra óptica (*1).
 
@@ -27,9 +25,8 @@ Notas:
 - (*1) En algunas localidades, la última milla puede ser provista por terceros aunque el backbone es fibra óptica.
 - (*2) El cliente autoriza la registración del rango IP ante LACNIC. Metrotel asegura que dichas IPs no están en listas negras al momento de asignación. El cliente es responsable por el uso y acciones desde las IPs públicas otorgadas. Si no posee ASN propio, Metrotel podrá publicar las IPs bajo ASN Metrotel mediante rutas estáticas. Siempre se requiere autorización para publicar IPs o ASN del cliente.
 
----
 
-## 3. OPCIONALES - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 3. OPCIONALES
 
 Metrotel ofrece dos opciones principales del servicio **INTERNET INT**:
 
@@ -62,9 +59,7 @@ Notas:
 - (*6) Hasta 5 reglas NAT y 5 ACL, permitiendo una DMZ básica (por ejemplo, Web/Mail Server con puerto abierto y resto filtrado).
 - (*7) Redundancia de acceso físico con dos accesos a nodos distintos; requiere contratación separada y está sujeta a disponibilidad/análisis.
 
----
-
-## 4. LAG: PortChannel - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 4. LAG: PortChannel
 
 El **Link Aggregation Group (LAG)** en el servicio INTERNET INT permite proveer redundancia de puertos o ampliar el bandwidth cuando la interfaz apropiada no está disponible. Recomendaciones y limitaciones:
 
@@ -73,55 +68,40 @@ El **Link Aggregation Group (LAG)** en el servicio INTERNET INT permite proveer 
 - Se prefiere una única interfaz del tamaño de BW adecuado.
 - Metrotel no se responsabiliza por reclamos derivados de un mal dimensionamiento en puertos LAG.
 
----
-
-## 5. Elephant Flow - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 5. ELEPHANT FLOW
 
 Cuando el cliente de **INTERNET INT** utiliza flujos continuos extremadamente grandes (“elephant flow”, >3Gbps), debe notificar previamente a Metrotel. Si se supera este tamaño y afecta la calidad del servicio o red, Metrotel puede tomar acciones correctivas. En estos casos, la situación no será considerada falla en el SLA ni justificación de baja sin penalidad.
 
----
-
-## 6. Redundancia – Puerto Adicional - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 6. REDUNDANCIA - PUERTO ADICIONAL
 
 En **INTERNET INT**, los puertos adicionales existen en el mismo equipo que el principal. Solo se publica el tráfico del puerto principal en el portal de autogestión. Cada puerto (principal/adicional) puede brindar la totalidad del servicio. Si un puerto falla, se puede solicitar reposición sin que se cuente como indisponibilidad, salvo que todos los puertos fallen.
 
 *Nota: Más de un puerto adicional está sujeto a disponibilidad y análisis por parte de Metrotel.*
 
----
-
-## 7. Equipos para Enlaces de Terceros fuera de AMBA - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 7. EQUIPOS PARA ENLACES DE TERCEROS FUERA DE AMBA
 
 En caso de INTERNET INT sobre enlace de terceros (más de 80 km de CABA o Córdoba Capital), la reposición de router propiedad de Metrotel no cuenta como incumplimiento del SLA si se realiza en menos de 48h hábiles. El cliente acepta esta condición salvo que haya alcances particulares diferentes.
 
----
-
-## 8. Servicio de DNS - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 8. SERVICIO DE DNS
 
 **INTERNET INT** permite al cliente usar el servicio de DNS provisto por Metrotel para las direcciones IP públicas asignadas. La autogestión de dominios se realiza en un portal específico, pero solo para IPs de Metrotel.
 
----
-
-## 9. Soporte Técnico - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 9. SOPORTE TÉCNICO
 
 Metrotel ofrece soporte técnico para INTERNET INT en Buenos Aires, 24/7/365. El cliente tiene un número gratuito (0800-362-1040) para gestionar reclamos. La Mesa de Ayuda diagnostica, informa el estado y avanza en la resolución de fallas notificando por teléfono/mail.
 
----
 
-## 10. Mantenimiento Programado - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 10. MANTENIMIENTO PROGRAMADO
 
 El mantenimiento programado de INTERNET INT es notificado con al menos 48h de anticipación, realizada en horario pactado con el cliente. El cliente puede solicitar modificación del horario si se ve afectado.
 
----
-
-## 11. Puesta en Marcha del Servicio - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 11. PUESTA EN MARCHA DEL SERVICIO
 
 La provisión de INTERNET INT con instalación física será realizada por personal de Metrotel/terceros autorizados y se dejará constancia mediante la firma del “Informe de Instalación del Cliente”. Dicha firma implica conformidad sobre la instalación y la capacidad de uso del servicio.
 
 Cuando no se requiera instalación física se notificará por el mejor medio que el servicio está operativo.
 
----
-
-## 12. Disponibilidad - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 12. DISPONIBILIDAD
 
 La disponibilidad de INTERNET INT se mide como el tiempo de acceso a Internet respecto al total de tiempo del servicio.
 
@@ -132,15 +112,12 @@ La disponibilidad de INTERNET INT se mide como el tiempo de acceso a Internet re
   ```Disponibilidad = (T – D) / T x 100```  
   Donde D = minutos de indisponibilidad y T = minutos del mes.
 
----
 
-## 13. Tiempo Medio de Restauración - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 13. TIEMPO MEDIO DE RESTAURACIÓN
 
 El tiempo medio de restauración de INTERNET INT es el promedio mensual desde la detección/notificación del problema hasta el restablecimiento del servicio.
 
----
-
-## 14. Responsabilidad del Cliente - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 14. RESPONSABILIDAD DEL CLIENTE
 
 Responsabilidades del cliente para INTERNET INT:
 
@@ -152,9 +129,7 @@ Responsabilidades del cliente para INTERNET INT:
 - Manipulación de tráfico por BGP fuera de Metrotel es bajo responsabilidad del cliente. Cambios de tráfico por DUAL HOME no son reclamables a Metrotel.
 - Reportar anomalías mediante ticket; los administradores del cliente deben colaborar para diagnóstico/corrección. Los tiempos debidos a disponibilidad del cliente no computan como reclamo.
 
----
-
-## 15. Limitaciones del Servicio - ESPECIFICACIONES TÉCNICAS Y ALCANCE DE SERVICIO: ANEXO TÉCNICO INTERNET
+## 15. LIMITACIONES DEL SERVICIO
 
 Restricciones y recomendaciones del servicio INTERNET INT:
 
