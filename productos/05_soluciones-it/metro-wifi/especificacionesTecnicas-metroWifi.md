@@ -131,13 +131,174 @@ Algunos posibles obstáculos son:
 
 La siguiente tabla muestra el grado de atenuación producido por la absorción con materiales comunes:
 
-![metroWifi1](../../../imagenes/metro-wifi/metro-wifi1.png)
-![metroWifi2](../../../imagenes/metro-wifi/metro-wifi2.png)
+<table>
+<th>Material</th>
+<th>Grado de atenuación</th>
+<th>Ejemplo</th>
+
+<tr>
+<td>Espacio abierto</td>
+<td>Ninguno</td>
+<td>Patio, terraza</td>
+</tr>
+
+<tr>
+<td>Madera</td>
+<td>Bajo</td>
+<td>Pared interna, partición del hogar, puerta, piso</td>
+</tr>
+
+<tr>
+<td>Yeso</td>
+<td>Bajo</td>
+<td>Paredes internas</td>
+</tr>
+
+<tr>
+<td>Materiales sintéticos</td>
+<td>Bajo</td>
+<td>tabiques o mamparas</td>
+</tr>
+
+<tr>
+<td>Amianto</td>
+<td>Bajo</td>
+<td>techos</td>
+</tr>
+
+<tr>
+<td>Cristal</td>
+<td>Bajo</td>
+<td>ventana transparente</td>
+</tr>
+
+<tr>
+<td>Acoplamiento de alambre en cristal</td>
+<td>Medio</td>
+<td>Puerta, particiones</td>
+</tr>
+
+<tr>
+<td>Cristal teñido con metal</td>
+<td>Bajo</td>
+<td>ventanas teñidas</td>
+</tr>
+
+<tr>
+<td>Cuerpo humano</td>
+<td>Medio</td>
+<td>grupo grande de personas</td>
+</tr>
+
+<tr>
+<td>Agua</td>
+<td>Medio</td>
+<td>madera húmeda, acuario</td>
+</tr>
+
+<tr>
+<td>Ladrillos</td>
+<td>Medio</td>
+<td>Pared interna, pared externa, piso</td>
+</tr>
+
+<tr>
+<td>Mármol</td>
+<td>Medio</td>
+<td>Pared interna, pared externa, piso</td>
+</tr>
+
+<tr>
+<td>Cerámica (con contenido de metal)</td>
+<td>Alto</td>
+<td>Baldosa cerámica, techo, piso</td>
+</tr>
+
+<tr>
+<td>Papel</td>
+<td>Alto</td>
+<td>rodillo o apilado de papel</td>
+</tr>
+
+<tr>
+<td>Hormigón</td>
+<td>Alto</td>
+<td>piso, pared externa, pilares, columnas</td>
+</tr>
+
+<tr>
+<td>Cristal a prueba de balas</td>
+<td>Alto</td>
+<td>cabina de seguidad</td>
+</tr>
+
+<tr>
+<td>Plateado</td>
+<td>Muy alto</td>
+<td>espejos</td>
+</tr>
+
+<tr>
+<td>Metal</td>
+<td>Muy alto</td>
+<td>escritorios, mamparas, refuerzos de hormigón, hueco del ascensor, armario de archivos, ventilador</td>
+</tr>
+
+<tr>
+<td>Muebles de madera</td>
+<td>Bajo</td>
+<td>mesas, sillas, sillones, aparadores</td>
+</tr>
+
+<tr>
+<td>Muebles metal</td>
+<td>Alto</td>
+<td>mesas metálicas, sillas</td>
+</tr>
+
+</table>
+
 
 **Frecuencias disponibles**
 
 Las redes WiFi funcionan en dos frecuencias estándar para enviar y recibir datos. Estas frecuencias son 2.4 GHz y 5.0 GHz.
 
-![metroWifi2](../../../imagenes/metro-wifi/frecuencias%20disponibles%20-%20metroWifi.png)
+<table>
+<th>Frecuencia</th>
+<th>Ventajas</th>
+<th>Desventajas</th>
+
+<tr>
+<th>2.4 GHz</th>
+<td>
+<ul>
+<li>Accesible desde mayores distancias</li>
+<li>Compatible con una gran cantidad de dispositivos</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Frecuencia normalmente saturada por todos los dispositivos que la admiten</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th>5 GHz</th>
+<td>
+<ul>
+<li>Mucho más ancho de banda</li>
+<li>Generalmente menos interferencias en 5 GHz porque la frecuencia no está saturada</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Disponible para distancias más cortas</li>
+<li>Las redes de 5 GHz no traspasan objetos sólidos tan bien como las 2.5 GHz. Esto puede limitar el rendimiento de estas redes en el interior de casa u oficinas, donde la señal tenga que atravesar varias paredes.</li>
+</ul>
+</td>
+</tr>
+
+</table>
 
 
