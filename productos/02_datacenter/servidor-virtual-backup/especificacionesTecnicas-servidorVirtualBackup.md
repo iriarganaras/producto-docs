@@ -76,7 +76,43 @@ En caso de requerirse una restauración, Metrotel restaurará la máquina virtua
 
 **Configuraciones de máquinas virtuales soportadas**
 
-![Configuraciones de máquinas virtuales soportadas](../../../imagenes/servidor-virtual-backup/configuraciones%20de%20máquinas%20virtuales%20soportadas.png)
+<table>
+<th>Producto</th>
+<th>Versión</th>
+<th>Procesador virtual</th>
+<th>RAM</th>
+<th>Disco Rígido</th>
+<th>Backup</th>
+
+<tr>
+<th rowspan="4">Servidor virtual backup</th>
+</tr>
+
+<tr>
+<td>Low</td>
+<td>1 de 2.4 GHz</td>
+<td>2 GB</td>
+<td>150 GB</td>
+<td>14 días, (2) restauraciones</td>
+</tr>
+
+<tr>
+<td>Medium</td>
+<td>2 de 2.4 GHz</td>
+<td>4 GB</td>
+<td>250 GB</td>
+<td>14 días, (2) restauraciones</td>
+</tr>
+
+<tr>
+<td>High</td>
+<td>2 de 2.4 GHz</td>
+<td>8 GB</td>
+<td>500 GB</td>
+<td>14 días, (2) restauraciones</td>
+</tr>
+</table>
+
 
 **Servicios opcionales/adicionales**
 
