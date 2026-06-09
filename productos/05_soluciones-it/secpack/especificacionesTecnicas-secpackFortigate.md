@@ -165,9 +165,9 @@ Cada banda sea “Básica” o “Avanzada” si y solo si podrá escalar en can
 El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan contratado.
 
 <table>
-<th colspan="3">Empresa mediana (Empresa de 1-100 usuarios</th>
+<th colspan="3">Empresa mediana (Empresa de 1-100 usuarios)</th>
 <tr>
-<th colspan="2">Cantidad de modificaciones mensuales<th>
+<th colspan="3">Cantidad de modificaciones mensuales</th>
 </tr>
 
 <tr>
@@ -234,7 +234,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 <table>
 <th colspan="3">Empresa grande (Empresa de 100-200 usuarios)</th>
 <tr>
-<th colspan="2">Cantidad de modificaciones mensuales<th>
+<th colspan="3">Cantidad de modificaciones mensuales</th>
 </tr>
 
 <tr>
@@ -469,8 +469,11 @@ Para los tiempos de respuestas se considerará según el tipo de falla:
   
 A continuación, se detalla el diagrama de escalamiento:
 
-![Diagrama lógico del producto](../../../imagenes/secpack-fortigate/diagrama%20de%20escalamiento1.png)
-![Diagrama lógico del producto](../../../imagenes/secpack-fortigate/diagrama%20de%20escalamiento2.png)
+| Tipo de incidencia | Tiempo de respuesta del SoC | Tiempo de llegada a sitio en caso de ser requerido | Tiempo de respuesta | Banda horaria de respuesta telefónica y llegada a sitio (de requerirse, a criterio de Metrotel) |
+|---|---|---|---|---|
+| **Falla mayor** | Llamado telefónico dentro de los 60 minutos de la solicitud del cliente | Dentro de las 4 horas de informada la falla al SoC | 4 horas | 7 x 24 x 365 |
+| **Falla menor** | Llamado telefónico dentro de los 120 minutos de la solicitud del cliente | A definir según evaluación preliminar | 6 horas | Tel: 7 x 24 x 365. Visita sitio: días hábiles de 9 a 18 hs |
+| **Consultas** | Respuesta por correo electrónico dentro de los 2 días hábiles | No se requiere visita a sitio | No aplica | No aplica |
 
 ## 6. CALIDAD DE SERVICIO (SLA)
 
