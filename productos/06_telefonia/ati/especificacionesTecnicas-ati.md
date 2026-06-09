@@ -20,11 +20,11 @@ Por una cuestión de seguridad el servicio es brindado por medio de una Red Priv
 <table>
   <tr>
     <th>Producto</th>
-    <th colspan="2">Acceso Telefónico IP (ATI)</th>
+    <th colspan="4">Acceso Telefónico IP (ATI)</th>
   </tr>
   <tr>
     <th>Versiones</th> 
-    <th colspan="2" > ATI (única) </th>
+    <th colspan="4" > ATI (única) </th>
   </tr> 
   <tr>
     <th>Código de Producto</th>
@@ -32,56 +32,56 @@ Por una cuestión de seguridad el servicio es brindado por medio de una Red Priv
     <th> Método de contratación</th>
   </tr>
     <th rowspan= "13">Opcionales</th>
-    <td>1000 MinLocLibres<td/>
-    <td>Asesor Comercial<td/>
+    <td>1000 MinLocLibres</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>2000 MinLocLibres<td/>
-    <td>Asesor Comercial<td/>
+    <td>2000 MinLocLibres</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>5000 MinLocLibres<td/>
-    <td>Asesor Comercial<td/>
+    <td>5000 MinLocLibres</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>10000 MinLocLibres<td/>
-    <td>Asesor Comercial<td/>
+    <td>10000 MinLocLibres</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>5,10,25,50,100,200 y 300 Números Telefónicos<td/>
-    <td>Asesor Comercial<td/>
+    <td>5,10,25,50,100,200 y 300 Números Telefónicos</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>Elección de número de cabecera<td/>
-    <td>Asesor Comercial<td/>
+    <td>Elección de número de cabecera</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>Precompras local, LDN, LDI y Bolsa<td/>
-    <td>Asesor Comercial<td/>
+    <td>Precompras local, LDN, LDI y Bolsa</td>
+    <td>Asesor Comercial</td>
    </tr>
    </tr>
-    <td>Bloqueo CPP local<td/>
-    <td>Por autogestión<td/>
+    <td>Bloqueo CPP local</td>
+    <td>Por autogestión</td>
    </tr>
    </tr>
-    <td>Bloqueo audiotexto<td/>
-    <td>Por autogestión<td/>
+    <td>Bloqueo audiotexto</td>
+    <td>Por autogestión</td>
    </tr>
    </tr>
-    <td>Bloqueo locales /LDN/LDI<td/>
-    <td>Por autogestión<td/>
+    <td>Bloqueo locales /LDN/LDI</td>
+    <td>Por autogestión</td>
    </tr>
    </tr>
-    <td>ANI restringido<td/>
-    <td>Por autogestión<td/>
+    <td>ANI restringido</td>
+    <td>Por autogestión</td>
    </tr>
    </tr>
-    <td>White list<td/>
-    <td>Por autogestión<td/>
+    <td>White list</td>
+    <td>Por autogestión</td>
    </tr>
    </tr>
-    <td>Black list<td/>
-    <td>Por autogestión<td/>
+    <td>Black list</td>
+    <td>Por autogestión</td>
    </tr>
 
 </table>
