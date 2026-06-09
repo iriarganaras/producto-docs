@@ -50,9 +50,11 @@ Para esto, cada compartimiento cuenta con su propia llave de tensión para el co
   
 Metrotel ofrece la mejor alternativa del mercado en cuanto a conectividad dedicada:
 + Ancho de banda dedicado y simétrico gracias a la arquitectura de nuestra red y potencia de nuestro backbone.
-+ Conexión directa en CABASE y acuerdos con operadores nacionales.  Red completamente switcheada y segura.
++ Conexión directa en CABASE y acuerdos con operadores nacionales. 
++ Red completamente switcheada y segura.
 + Equipamiento CISCO en su totalidad.
-+ Análisis de estadísticas vía Web on-line.  NOC que asegura un único punto de contacto para la resolución de cualquier problema de servicio.
++ Análisis de estadísticas vía Web on-line.
++ NOC que asegura un único punto de contacto para la resolución de cualquier problema de servicio.
 
 ## 3. CARACTERÍSTICAS DEL SERVICIO
 
