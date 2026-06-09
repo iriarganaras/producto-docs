@@ -18,7 +18,10 @@ Metrotel SD-WAN puede interconectar el sitio de la cabecera con otras ubicacione
 
 Los equipos incluidos en el servicio Metrotel SD-WAN son los siguientes: Gateway 7030 y 9004 LTE, o similar de idénticas o mejores prestaciones, todos controlados y orquestados desde el portal cloud que correspondiere y en todos los casos con las suscripciones al portal y las funcionalidades de routing incluidas.
 
-![equipos vwan](../../../imagenes/vwan/equipos%20vwan.png)
+| Platform | Max tunnels | Max IKE Learned routes | Max routes in forwarding table | WAN Compression | Crypto Throughput | Firewall sessions |
+|---|---|---|---|---|---|---|
+| 7030 | 512 | 3000 | 4096 | 2.5 Gbps | 2.6 Gbps | 128K | 
+| 9004 | 512 | 3000 | 4096 | 2.5 Gbps | 4 Gbps | 64k | 
 
 *Metrotel se reserva el derecho de utilizar estos equipos u otros de idénticas o mejores características de acuerdo con su criterio y con las mejores prácticas para el diseño del servicio.*
 
@@ -190,7 +193,11 @@ El servicio cuenta con un Tiempo máximo de restauración, según corresponda.
 
 1. Por inconvenientes en HPE Aruba Networking Central, Según la siguiente tabla:
 
-![Tiempo máximo de restauración](../../../imagenes/vwan/tiempo%20max.%20de%20restauración.png)
+| Tipo de falla | Descripción | TMR | 
+|---|---|---|
+| **Incidente bajo** | única sucursal afectada, afección parcial de 1 dispositivo | 24 hs |
+| **Incidente medio** | sitio crítico con afección parcial, conectividad reducida general | 24 hs |
+| **Incidente urgente** | afección generalizada, ofline branches, negocio afectado. Core afecado | 8 hs | 
 
 2. Por inconvenientes en sitio de cliente dentro de AMBA<sup>(*3)</sup>, TMR 48 horas.
 3. Por inconvenientes en sitio de cliente en resto del País, TMR 72 horas.
@@ -198,11 +205,20 @@ Superados estos plazos, comenzara a aplicar las siguientes penalidades:
 
 **Soporte HPE Aruba Networking Central**
 
-![Soporte HPE Aruba](../../../imagenes/vwan/soporte%20HPE%20Aruba.png)
+| Tiempo de restauración | No distingue ubicación geográfica | 
+|---|---|
+| Entre 8 y 12 horas | 10% del abono del sitio | 
+| Entre 12 y 24 horas | 20% del abono del sitio |
+| Más de 24 hs | 30% del abono del sitio |
+
 
 **Soporte en sitio**
 
-![Soporte en sitio](../../../imagenes/vwan/soporte%20en%20sitio.png)
+| Tiempo de restauración | AMBA | Resto del país |
+|---|---|---|
+| Entre 48 y 72 horas | No aplica penalidad | 10% del abono del sitio |
+| Entre 72 y 96 horas | 10% del abono del sitio | 20% del abono del sitio |
+| Más de 96 horas | 20% del abono del sitio | 30% del abono del sitio | 
 
 El abono sobre el cual se aplican las penalidades corresponde a los sitios afectados únicamente.
 
