@@ -62,17 +62,10 @@ producto-docs/
     ├── ati
     ├── cloud-connect
     ├── datacenter-sky online
-    ├── datacenter-virtual
     ├── email
-    ├── hosting
-    ├── hous-colocation
-    ├── ipt
-    ├── metro-wifi
+    ├── int-mitigado
     ├── rpv
-    ├── sadm
     ├── secpack-fortigate
-    ├── servidor-virtual-backup
-    ├── tev
     ├── veeam-replication
     ├── vwan
 ```
