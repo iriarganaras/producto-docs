@@ -167,7 +167,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 <table>
 <th colspan="3">Empresa mediana (Empresa de 1-100 usuarios</th>
 <tr>
-<th colspan="3">Cantidad de modificaciones mensuales<th>
+<th colspan="2">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
@@ -234,7 +234,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 <table>
 <th colspan="3">Empresa grande (Empresa de 100-200 usuarios)</th>
 <tr>
-<th colspan="3">Cantidad de modificaciones mensuales<th>
+<th colspan="2">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
