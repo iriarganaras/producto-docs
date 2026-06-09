@@ -165,9 +165,9 @@ Cada banda sea “Básica” o “Avanzada” si y solo si podrá escalar en can
 El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan contratado.
 
 <table>
-<th colspan="2">Empresa mediana (Empresa de 1-100 usuarios</th>
+<th colspan="3">Empresa mediana (Empresa de 1-100 usuarios</th>
 <tr>
-<th colspan="2">Cantidad de modificaciones mensuales<th>
+<th colspan="3">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
@@ -232,9 +232,9 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 
 
 <table>
-<th colspan="2">Empresa grande (Empresa de 100-200 usuarios)</th>
+<th colspan="3">Empresa grande (Empresa de 100-200 usuarios)</th>
 <tr>
-<th colspan="2">Cantidad de modificaciones mensuales<th>
+<th colspan="3">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
