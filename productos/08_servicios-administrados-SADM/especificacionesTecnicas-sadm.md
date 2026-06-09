@@ -19,8 +19,163 @@ Toda tarea requerida dentro del servicio SADM, y sus correspondientes puntos, se
 
 A continuación se detalla la lista de tareas contempladas dentro del servicio SADM y sus respectivos puntos dependiendo del horario de configuración requerido por el cliente.
 
-![sadm](../../imagenes/sadm/sadm.png)
-![sadm2](../../imagenes/sadm/sadm2.png)
+<table>
+  <tr>
+    <th></th>
+    <th>DETALLE DE TAREAS</th>
+    <th>PUNTOS DIURNOS <sup>(*1)</sup></th>
+    <th>PUNTOS NOCTURNOS <sup>(*2)</sup></th>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td><strong>Conforme de implementación (mandatorio para cada pedido)</strong></td>
+    <td>3</td>
+    <td>No aplica</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>Visita a sitio</td>
+    <td>4</td>
+    <td>8</td>
+  </tr>
+
+  <!-- Sección ADMINISTRATIVO -->
+  <tr>
+    <td rowspan="7"><strong>ADMINISTRATIVO</strong></td>
+    <td>Upgrade de SO: 1 solo upgrade, no incluye el costo de la licencia en caso de requerirse. <sup>(*3)</sup></td>
+    <td>3</td>
+    <td>6</td>
+  </tr>
+
+  <tr>
+    <td>Administración de usuarios: Hasta 3 perfiles o bien 1 configuración para validación por servidor TACA CS (la configuración del servicio en el servidor no se incluye). <sup>(*3)</sup></td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+
+  <tr>
+    <td>Configuración de ports/interfaces: config. de interfaces IP. No incluye tunelizadas (IPSEC, GRE, L2TP, etc)</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+
+  <tr>
+    <td>Administración SNMP: Configuración de hasta 3 comunidades SNMP lectura o escritura (la utilización de las variables queda a criterio del cliente) con límites de hasta 5 OIDs por comunidad en caso de tratarse de equipos de Metrotel y sin restricción para aquellos equipos contratados como ALQ (no se configuran acess list para limitar las OIDs en las contrataciones ALQ)</td>
+     <td>1</td>
+    <td>2</td>
+    </tr>
+
+ <tr>
+    <td>Implementación de ACLs: un total de hasta 10 reglas cualquiera sea su uso <sup>(*3)</sup></td>
+     <td>1</td>
+    <td>2</td>
+    </tr>
+    <tr>
+    <td>DHCP: Configuración de un servicio de server DHCP y un helper address por extremo</td>
+    <td>1</td>
+    <td>2</td>
+    </tr>
+    <tr>
+    <td>NAT: Configuración de hasta 20 reglas (NAT/PAT/static/dynamic)</td>
+    <td>1</td>
+    <td>2</td>
+    </tr>
+
+<tr>
+<th rowspan="10"><strong>Capacidades L2 y L3<strong></th>
+<td>Ether Channel: Implementación de un grupo etherchannel</td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>Vlans: configuración de hasta 5 vlans con su correspondiente aplicación a interfaces</td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>STP: configuración de una única instancia <sup>(*3)</sup></td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>Estático: configuración de hasta 10 rutas estáticas</td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>EIGRP: configuración básica de interfaces y costos, válido para borde de RPV <sup>(*3)</sup></td>
+<td>2</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>OSPF: configuración básica de interfaces y costos solo para área de backbone/cero, válido para borde de RPV<sup>(*3)</sup></td>
+<td>2</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>BGP: configuración básica con hasta 2 peers, hasta 2 route-maps (a aplicar cualquier atributo configurable de BGP) y hasta 10 prefix-list. Configuración de hasta 2 route reflectors por red con sus peerings asociados. Incluye hasta 2 configuraciones dual home. Filtros acordes a capacidad del equipo.</td>
+<td>8</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>HSRP: configuración de un solo grupo con hasta un tracking por IP SPLA</td>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>Tracking por IP SPLA</td>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>Filtrado TCP/IP: con un máximo de hasta 10 reglas</td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>Wifi: hasta 4 SSIDs en modalidad abierta o cerrada por user/pass (no incluye 802.1x)</td>
+<td>1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>IPSEC/GRE: hasta 2 túnele</td>
+<td>8</td>
+<td>16</td>
+</tr> 
+
+
+<tr>
+<th rowspan="10"><strong>QoS<strong></th>
+<td>Clases de servicios: 5 clases de servicios (2 priority, 3 bandwith y best effort)</td>
+<td>8</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>Marcación y priorización: según campo "DSCP": hasta 10 ACLs para marcaciones</td>
+<td>4</td>
+<td>8</td>
+</tr> 
+
+<tr>
+<td>Clasificación y marcado de paquetes según IP origen/destino: hasta 10 ACLs asociados</td>
+<td>4</td>
+<td>8</td>
+</tr> 
+</table>
 
 <sup>(1*)</sup> *Se computaran como puntos diurnos a toda tarea que se requiera realizar los días hábiles entre las 9 hs y las 18 hs.*
 
