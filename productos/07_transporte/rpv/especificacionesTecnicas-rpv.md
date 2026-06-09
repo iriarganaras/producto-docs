@@ -27,7 +27,61 @@ Metrotel cuenta con las siguientes opciones de RPV adaptándose a cada tipo de n
 + RPV sin router CE (customer edge): Es una opción económica que permite conectar la red del cliente directamente al acceso, brindando funcionalidades básicas de MPLS.
 + RPV con router CE (customer edge): Esta opción es necesaria cuando se necesitan implementar soluciones escalables, comportamientos complejos y políticas de calidad de servicio.
 
-![rpv](../../../imagenes/rpv/rpv.png)
+<table>
+<th>Producto</th>
+<th colspan="2">RPV (Red privada virtual)</th>
+
+<tr>
+<th>Versiones</th>
+<th colspan="2">RPV de 10MB a 10GB</th>
+</tr>
+
+<tr>
+<th>Código de producto</th>
+<th colspan="2">RPV - Red Privada Virtual MPLS</th>
+</tr>
+
+<tr>
+<th>Tecnología de red</th>
+<td>VPN MPLS (RFC 2547)</td>
+</tr>
+
+<tr>
+<th>Tiempo de respuesta </th>
+<td>RTT < 20 ms <sup>(*1)</sup></td>
+</tr>
+
+<tr>
+<th>Pérdida de paquetes</th>
+<td> <= 0.01% <sup>(*1)</sup></td>
+</tr>
+
+<tr>
+<th>SLA</th>
+<td> 99.7% <sup>(*2)</sup></td>
+</tr>
+
+<tr>
+<th rowspan="4">Servicios adicionales</th>
+<th> Detalle</th>
+<th> Tipo de contratación</th>
+</tr>
+
+<tr>
+<td>Colas de priorización</td>
+<td>En solución con Router</td>
+</tr>
+
+<tr>
+<td>Equipamiento</td>
+<td>Contratación Opcional</td>
+</tr>
+
+<tr>
+<td>Soluciones de extranet (BCRA - Link - Visa - First Data) <sup>(*3)</sup></td>
+<td>Contratación opcional</td>
+</tr>
+</table>
 
 <sup>(*1)</sup> *Estos valores son válidos exclusivamente sobre tecnologías de fibra óptica. Son válidos en condición de uso menor al 50% del enlace (por cada última milla).*
 
