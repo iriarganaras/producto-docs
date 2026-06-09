@@ -47,18 +47,18 @@ Metrotel cuenta con las siguientes opciones de RPV adaptándose a cada tipo de n
 </tr>
 
 <tr>
-<th>Tiempo de respuesta </th>
-<td>RTT < 20 ms <sup>(*1)</sup></td>
+<th >Tiempo de respuesta </th>
+<td colspan="2">RTT < 20 ms <sup>(*1)</sup></td>
 </tr>
 
 <tr>
 <th>Pérdida de paquetes</th>
-<td> <= 0.01% <sup>(*1)</sup></td>
+<td colspan="2"> <= 0.01% <sup>(*1)</sup></td>
 </tr>
 
 <tr>
 <th>SLA</th>
-<td> 99.7% <sup>(*2)</sup></td>
+<td colspan="2"> 99.7% <sup>(*2)</sup></td>
 </tr>
 
 <tr>
