@@ -20,11 +20,11 @@ Por una cuestión de seguridad el servicio es brindado por medio de una Red Priv
 <table>
   <tr>
     <th>Producto</th>
-    <th colspan="4">Acceso Telefónico IP (ATI)</th>
+    <th colspan="2">Acceso Telefónico IP (ATI)</th>
   </tr>
   <tr>
     <th>Versiones</th> 
-    <th colspan="4" > ATI (única) </th>
+    <th colspan="2" > ATI (única) </th>
   </tr> 
   <tr>
     <th>Código de Producto</th>
