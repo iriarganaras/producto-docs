@@ -84,7 +84,7 @@ A continuación se detalla la lista de tareas contempladas dentro del servicio S
     </tr>
 
 <tr>
-<th rowspan="10"><strong>Capacidades L2 y L3<strong></th>
+<th rowspan="12"><strong>Capacidades L2 y L3<strong></th>
 <td>Ether Channel: Implementación de un grupo etherchannel</td>
 <td>1</td>
 <td>2</td>
