@@ -43,7 +43,7 @@ Metrotel cuenta con las siguientes opciones de RPV adaptándose a cada tipo de n
 
 <tr>
 <th>Tecnología de red</th>
-<td>VPN MPLS (RFC 2547)</td>
+<td colspan="2">VPN MPLS (RFC 2547)</td>
 </tr>
 
 <tr>
