@@ -66,7 +66,11 @@ Contratando la elección de número especial, el cliente podrá elegir el númer
 + Números de a pares: ej. 08xx‐xxx‐2233 o 0044 o 5900
 + Números específicos elegidos por el cliente por preferencia o combinación de letras (ej. 08xx‐xxx‐7258 por “salud”)
 
-![tev](../../../imagenes/tev/tev.png)
+| Producto | TEV (Telefonía Virtual) |
+|---|---|
+| Versiones | 0800-0810 |
+| Código de producto | TEV-TEV |
+| Opcionales | Restricción de llamada por origen. Elección de numeración Cat A y Cat B |
 
 ## 5. SOPORTE TÉCNICO
 
