@@ -165,9 +165,9 @@ Cada banda sea “Básica” o “Avanzada” si y solo si podrá escalar en can
 El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan contratado.
 
 <table>
-<th colspan="3">Empresa mediana (Empresa de 1-100 usuarios</th>
+<th colspan="2">Empresa mediana (Empresa de 1-100 usuarios</th>
 <tr>
-<th colspan="3">Cantidad de modificaciones mensuales<th>
+<th colspan="2">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
@@ -232,9 +232,9 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 
 
 <table>
-<th colspan="3">Empresa grande (Empresa de 100-200 usuarios)</th>
+<th colspan="2">Empresa grande (Empresa de 100-200 usuarios)</th>
 <tr>
-<th colspan="3">Cantidad de modificaciones mensuales<th>
+<th colspan="2">Cantidad de modificaciones mensuales<th>
 </tr>
 
 <tr>
@@ -366,7 +366,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 </tr>
 
 <tr>
-<th>Presencia de antispam en</th>
+<th>Presencia de antispam en ACL</th>
 <td>5</td>
 <td>20</td>
 </tr>
@@ -377,7 +377,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 <td>10</td>
 </tr>
 
-<th>SSL inspection</th>
+<th colspan="3">SSL inspection</th>
 <tr>
 <th>Certificate inspection</th>
 <td>15</td>
@@ -390,7 +390,7 @@ El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan c
 <td>1</td>
 </tr>
 
-<th>Loggin Options en ACL Firewalls</th>
+<th colspan="3">Loggin Options en ACL Firewalls</th>
 <tr>
 <th>Eventos de seguridad</th>
 <td>15</td>
