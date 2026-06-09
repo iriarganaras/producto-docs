@@ -41,7 +41,7 @@ El cliente será el responsable de proveer a Metrotel mediante el documento de p
 + Categorías de Filtrado Web, ej.: Drogas, porno, armas, Redes sociales, citas <sup>5</sup>
 + Si desea hacer empleo de la Zona Desmilitarizada (DMZ) proporcionada por el Fortigate.
 + Direcciones de E-mail a la cual serán enviados los reportes semanales.
-+ 
+
 En caso de hacer empleo de la funcionalidad de “SSL-VPN” o “Limitación de Redes Sociales basadas en tiempo y autenticación para usuarios seleccionados” el cliente deberá enviará a Metrotel en el “Documento de Personalización de Servicios” la relación de usuarios e Emails <sup>6</sup> para ser cargados en la plataforma. El nombre de usuario es prestablecido por Metrotel, está le dará a conocer a la cliente pasada la puesta en marcha la relación de usuario y Contraseña. En caso de no contar con los parámetros anteriores, el servicio se brindará con la configuración estándar, la cual cumple con las buenas prácticas de seguridad y calidad de servicio.
 
 Configuración estándar:
@@ -49,7 +49,7 @@ Configuración estándar:
 + SSL VPN
 + Prevención de Intrusos
   
-<sup>3</sup> (3https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-fortiwifi-60f-series.pdf https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-100f-series.pdf)
+<sup>3</sup> (https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-fortiwifi-60f-series.pdf https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/fortigate-100f-series.pdf)
 
 <sup>4</sup> (https://www.metrotel.com.ar/internet-dedicado/)
 
@@ -84,21 +84,331 @@ El producto permite en dependencia de la banda contratada el siguiente máximo d
 
 <sup>9</sup> Cliente gratis: (https://www.forticlient.com/downloads o https://ip-Publica_del_Fortigate_del_Producto/)
 
-![secpack1](../../../imagenes/secpack-fortigate/secpack1.png)
+<table>
+<th colspan="5">Cantidad de usuarios</th>
+<tr>
+<td></td>
+<th colspan="2">Fortigate 60F</th>
+<th colspan="2">Fortigate 100F</th>
+</tr>
 
-![secpack2](../../../imagenes/secpack-fortigate/secpack2.png)
+<tr>
+<td></td>
+<th>Inicial</th>
+<th>Máximo</th>
+<th>Inicial</th>
+<th>Máximo</th>
+</tr>
+<th>Cantidad de usuarios a proteger</th>
+<td>01</td>
+<td>100</td>
+<td>100</td>
+<td>200</td>
+</tr>
+
+
+<tr>
+<th>Máximo de usuarios seleccionados a autenticar para limitar redes sociales en reglas basadas en tiempo en el portal cautivo On-Demand</th>
+<td>40</td>
+<td>100</td>
+<td>100</td>
+<td>200</td>
+</tr>
+
+<tr>
+<th>Usuarios de SSL VPNs</th>
+<td>40</td>
+<td>100</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</table>
+
+
+
+<table>
+<th colspan="2">Paquete de adquisición de usuarios (Escalado en cantidad de usuarios)</th>
+<tr>
+<th>Usuarios seleccionados a autenticar para limitar redes sociales en reglas basadas en tiempo en el portal cautivo On-Demand</th>
+<td>20</td>
+</tr>
+
+<tr>
+<th>Usuarios de SSL VPNs</th>
+<td>20</td>
+</tr>
+</table>
+
 
 Cada banda sea “Básica” o “Avanzada” si y solo si podrá escalar en cantidad de usuarios mediante el “Paquete de adquisición de usuarios”, teniendo un límite de cantidad de paquetes a adquirir por banda contratada (tiene costos asociados por cada paquete adquirido):
 
-![secpack3](../../../imagenes/secpack-fortigate/secpack3.png)
+<table>
+<th colspan="3">Cantidad de máxima de "Paquete de adquisición de usuarios" por banda</th>
+<tr>
+<td></td>
+<th colspan="2">Banda</th>
+</tr>
+
+<tr>
+<td></td>
+<th>Básico (Fortigate 60F)</th>
+<th>Avanzado (Fortigate 100F)</th>
+</tr>
+
+<tr>
+<th>Cantidad de máxima de paquete de adquisición de usuarios</th>
+<td>3</td>
+<td>3</td>
+</tr>
+</table>
 
 El Fortigate es 100% gestionado por el SoC de Metrotel, de acuerdo con el plan contratado.
 
-![secpack4](../../../imagenes/secpack-fortigate/secpack4.png)
+<table>
+<th colspan="3">Empresa mediana (Empresa de 1-100 usuarios</th>
+<tr>
+<th colspan="3">Cantidad de modificaciones mensuales<th>
+</tr>
 
-![secpack5](../../../imagenes/secpack-fortigate/secpack5.png)
+<tr>
+<th rowspan="2">Tipo de modificación</th>
+<th colspan="2">Banda</th>
+</tr>
 
-![secpack6](../../../imagenes/secpack-fortigate/secpack6.png)
+<tr>
+<th>Básico</th>
+<th>Avanzado</th>
+</tr>
+
+<tr>
+<th>ACL de Firewall</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Rutas (añadir o modificar)</th>
+<td>1</td>
+<td>5</td>
+</tr>
+
+<tr>
+<th>Filtrado web</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Alta de usuario</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Cambio de contraseña</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Modificaciones en la DMZ</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Publicación de puertos (DNAT)</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Modificaciones en las interfaces de red</th>
+<td>1</td>
+<td>5</td>
+</tr>
+</table>
+
+
+
+<table>
+<th colspan="3">Empresa grande (Empresa de 100-200 usuarios)</th>
+<tr>
+<th colspan="3">Cantidad de modificaciones mensuales<th>
+</tr>
+
+<tr>
+<th rowspan="2">Tipo de modificación</th>
+<th colspan="2">Banda</th>
+</tr>
+
+<tr>
+<th>Básico</th>
+<th>Avanzado</th>
+</tr>
+
+<tr>
+<th>ACL de Firewall</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Rutas (añadir o modificar)</th>
+<td>1</td>
+<td>5</td>
+</tr>
+
+<tr>
+<th>Filtrado web</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Alta de usuario</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Cambio de contraseña</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Modificaciones en la DMZ</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Publicación de puertos (DNAT)</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<tr>
+<th>Modificaciones en las interfaces de red</th>
+<td>1</td>
+<td>5</td>
+</tr>
+</table>
+
+<table>
+<th colspan="3">Máximo de reglas y funcionalidades</th>
+<tr>
+<th>Regla/Funcionalidad</th>
+<th>(Fortigate 60F)</th>
+<th>(Fortigate 100F)</th>
+</tr>
+
+<tr>
+<th>ACL de Firewall</th>
+<td>15</td>
+<td>30</td>
+</tr>
+
+<tr>
+<th>ACL de Firewall basadas en tiempo y con autenticación de usuarios (limitación de redes sociales basadas en tiempo y autenticación para usuarios seleccionados</th>
+<td>2</td>
+<td>2</td>
+</tr>
+
+<tr>
+<th>Interfaces de red lógicas hacia la red del cliente  </th>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<th>Servicio de DNS listado en interfaces de red</th>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<th>Servicio de DHCP listado en interfaces de red</th>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<th>Servicio de NTP listado en interfaces de red</th>
+<td>4</td>
+<td>8</td>
+</tr>
+
+<tr>
+<th>Portales de VPN</th>
+<td>1</td>
+<td>1</td>
+</tr>
+
+<tr>
+<th>DMZ</th>
+<td>1</td>
+<td>1</td>
+</tr>
+
+<th colspan="3">Security Profiles</th>
+<tr>
+<th>Presencia de antivirus en ACL</th>
+<td>5</td>
+<td>20</td>
+</tr>
+
+<tr>
+<th>Presencia de Aplication Control en ACL</th>
+<td>5</td>
+<td>20</td>
+</tr>
+
+<tr>
+<th>Presencia de antispam en</th>
+<td>5</td>
+<td>20</td>
+</tr>
+
+<tr>
+<th>Presencia de IPS en ACL</th>
+<td>5</td>
+<td>10</td>
+</tr>
+
+<th>SSL inspection</th>
+<tr>
+<th>Certificate inspection</th>
+<td>15</td>
+<td>30</td>
+</tr>
+
+<tr>
+<th>Certificate Deep Inspection</th>
+<td>1</td>
+<td>1</td>
+</tr>
+
+<th>Loggin Options en ACL Firewalls</th>
+<tr>
+<th>Eventos de seguridad</th>
+<td>15</td>
+<td>30</td>
+</tr>
+
+<tr>
+<th>Todas las sesiones</th>
+<td>0</td>
+<td>0</td>
+</tr>
+
+</table>
+
+
+
+
+
 
 **Recursos disponibles**
 
