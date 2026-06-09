@@ -21,7 +21,70 @@ El servicio soporta los códec ILBC, G726, GSM (orientado a Asterisk) y G729 en 
 
 El servicio puede referenciar a una IP fija sin necesidad de registración ni autenticación. En caso de utilizarse IP dinámica deberá autenticar llamada por llamada y podrá registrarse periódicamente para recibir llamadas entrantes.
 
-![ipt](../../../imagenes/ipt/ipt.png)
+<table>
+  <tr>
+    <th>Producto</th>
+    <th colspan="4">IP TELEPHONY - SIN ÚLTIMA MILLA (IPT)</th>
+  </tr>
+  <tr>
+    <th>Versiones</th> 
+    <th colspan="4"> 5 canales/ 10 canales/ 30 canales/ 100 canales <sup>(1*)</sup></th>
+  </tr> 
+  <tr>
+    <th>Código de Producto</th>
+    <th>IPT</th>    
+    <th> Método de contratación</th>
+  </tr>
+    <th rowspan= "13">Opcionales</th>
+    <td>1000 MinLocLibres <sup>(2*)</sup></td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>2000 MinLocLibres <sup>(2*)</sup></td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>5000 MinLocLibres <sup>(2*)</sup></td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>10000 MinLocLibres <sup>(2*)</sup></td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>5,10,25,50,100,200 y 300 Números Telefónicos</td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>Elección de número de cabecera</td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>Precompras local, LDN, LDI y Bolsa <sup>(2*)</sup></td>
+    <td>Asesor Comercial</td>
+   </tr>
+   </tr>
+    <td>Bloqueo CPP local</td>
+    <td>Por autogestión</td>
+   </tr>
+   </tr>
+    <td>Bloqueo LDN/LDI/ local</td>
+    <td>Por autogestión</td>
+   </tr>
+   </tr>
+    <td>Bloqueo audiotexto</td>
+    <td>Por autogestión</td>
+   </tr>
+   </tr>
+    <td>ANI restringido</td>
+    <td>Por autogestión</td>
+   </tr>
+   </tr>
+    <td>White list o black list</td>
+    <td>Por autogestión</td>
+   </tr>
+
+</table>
 
 <sup>(1*)</sup> *Consultar por otras versiones disponibles*
 
