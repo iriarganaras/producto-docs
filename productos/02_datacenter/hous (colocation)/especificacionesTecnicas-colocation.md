@@ -55,7 +55,6 @@ Metrotel ofrece la mejor alternativa del mercado en cuanto a conectividad dedica
 + Equipamiento CISCO en su totalidad.
 + Análisis de estadísticas vía Web on-line.
 + NOC que asegura un único punto de contacto para la resolución de cualquier problema de servicio.
-+ HOLAAAAAA
 
 ## 3. CARACTERÍSTICAS DEL SERVICIO
 
